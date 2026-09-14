@@ -25,14 +25,4 @@ to see what each one produces and where the numbers land.
 - In-context learning I have only run on a small subset so far, so it is not comparable to
   their 0.48 yet.
 
-## Notes along the way
-
-- Their three worked examples are rows 0, 3 and 14 of the dataset, so those rows need to be left
-  out when scoring.
-- Two identical few-shot runs at temperature 0 returned 0.810 and 0.803, so the output is not
-  exactly repeatable.
-- The expert review in `50_random_flows.json` added 109 techniques to the ground truth and removed
-  none. Scoring the same predictions against the original key and the updated key gives precision
-  0.381 and 0.467.
-
 Rasheed Afolabi · TRP 525
